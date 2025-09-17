@@ -28,12 +28,12 @@ export default function AboutSection() {
             {/* Impact Stats */}
             <div className="grid grid-cols-2 gap-8">
               <div className="bg-gray-900 p-6 rounded-lg text-center shadow hover:shadow-purple-500/30 transition">
-                <div className="text-4xl font-bold mb-2">5+</div>
-                <div className="text-gray-400 text-sm uppercase">Projects Delivered</div>
+                <div className="text-4xl font-bold mb-2">10+</div>
+                <div className="text-gray-400 text-sm uppercase">Projects Created</div>
               </div>
               <div className="bg-gray-900 p-6 rounded-lg text-center shadow hover:shadow-purple-500/30 transition">
-                <div className="text-4xl font-bold mb-2">1.5+</div>
-                <div className="text-gray-400 text-sm uppercase">Years Experience</div>
+                <div className="text-4xl font-bold mb-2">6+</div>
+                <div className="text-gray-400 text-sm uppercase">Months Experience</div>
               </div>
             </div>
           </div>

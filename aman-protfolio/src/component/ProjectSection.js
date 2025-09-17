@@ -1,33 +1,36 @@
 "use client"
+import research_image from "../Assets/Research.png"
+import antique_image from "../Assets/antique_store.png"
+import flashcart_image from "../Assets/flashcart_image.png"
 
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "Code Pulse",
+      title: "Cybersecurity Research with Machine Learning",
       description:
-        "CodePulse is a web-based code execution platform that allows users to write, execute, and manage code files seamlessly, with features like file management, syntax highlighting, and real-time output.",
-      image: "/code-editor-interface-dark-theme.jpg",
-      technologies: ["AWS (Auto scaling, RDS, SGS, EC2, S3)", "Terraform", "Docker", "React.js", "Node.js"],
+        "Conducted research in cybersecurity focusing on DNS-over-HTTPS traffic detection using machine learning models in Python. Implemented hybrid ML models to identify malicious traffic with high accuracy, leveraging feature engineering, real-time traffic simulation, and performance optimization.",
+      image: research_image,
+      technologies: ["Python", "Scikit-learn", "TensorFlow", "Pandas", "DoH Dataset"],
+      githubUrl: "#",
+      category: "Research",
+    },
+    {
+      title: "Antique Store – E-commerce Platform",
+      description:
+        "Developed a full-stack e-commerce web application for antiques, providing a seamless platform for browsing, managing, and purchasing rare items. Features included user authentication, product management, shopping cart, and secure payment integration.",
+      image: antique_image,
+      technologies: ["React.js", "Node.js", "Express", "MongoDB"],
       githubUrl: "#",
       category: "Full Stack",
     },
     {
-      title: "Urban Assist",
+      title: "FlashCart – Location-Based Marketplace",
       description:
-        "Urban Assist streamlines the process of finding, booking, and paying for various urban services through a unified, secure, and user-friendly interface.",
-      image: "/urban-services-booking-app-interface.jpg",
-      technologies: ["Microservices", "Kubernetes", "Docker", "RabbitMQ", "Java", "Node.js", "React", "NGINX"],
+        "Designed and built an Android app that connects buyers with nearby stores based on their location. Sellers can register, add products, and manage inventory, while buyers can browse and purchase from local shops. The system was powered by Firebase for real-time data sync, authentication, and scalability.",
+      image: flashcart_image,
+      technologies: ["Java", "Android Studio", "Firebase", "Google Maps API"],
       githubUrl: "#",
-      category: "Microservices",
-    },
-    {
-      title: "Trendflix",
-      description:
-        "A modern streaming platform for movies and TV series with advanced search and recommendation features.",
-      image: "/streaming-platform-interface-netflix-style.jpg",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      githubUrl: "#",
-      category: "Web App",
+      category: "Mobile App",
     },
   ]
 
