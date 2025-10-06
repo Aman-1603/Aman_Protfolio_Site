@@ -12,7 +12,7 @@ export default function ProjectsSection() {
         "Conducted research in cybersecurity focusing on DNS-over-HTTPS traffic detection using machine learning models in Python. Implemented hybrid ML models to identify malicious traffic with high accuracy, leveraging feature engineering, real-time traffic simulation, and performance optimization.",
       image: research_image,
       technologies: ["Python", "Scikit-learn", "TensorFlow", "Pandas", "DoH Dataset"],
-      ColabURL: "https://colab.research.google.com/drive/1AUdcJ9AMAswuLqClONH_LypRuRE-TmD4?usp=sharing",
+      githubUrl: "https://colab.research.google.com/drive/1AUdcJ9AMAswuLqClONH_LypRuRE-TmD4?usp=sharing",
       category: "Research",
     },
     {
