@@ -27,12 +27,12 @@ export default function CertificationsSection() {
       logo: "CS",
     },
     {
-      title: "SQL",
+      title: "JavaScript - Level(Intermidiate)",
       platform: "Hacker Rank",
-      issued: "July 2021",
-      credentialId: "f9143853e313",
-      credentialUrl: "https://www.hackerrank.com/certificates/f9143853e313",
-      category: "Data Base",
+      issued: "Oct 2025",
+      credentialId: "b17be2ec5868",
+      credentialUrl: "https://www.hackerrank.com/certificates/iframe/b17be2ec5868",
+      category: "Fullstack",
       logo: "HR",
     },
     {
