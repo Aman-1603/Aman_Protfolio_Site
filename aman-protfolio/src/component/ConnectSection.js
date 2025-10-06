@@ -21,32 +21,27 @@ export default function ConnectSection() {
       name: "GitHub",
       description: "Open source contributions & projects",
       icon: <FaGithub/>,
-      url: "#",
+      url: "https://github.com/Aman-1603",
     },
     {
       name: "LinkedIn",
       description: "Professional network & experience",
       icon: <FaLinkedin />,
-      url: "#",
+      url: "www.linkedin.com/in/aman--ansari",
     },
     {
       name: "CodeChef",
       description: "Problem solving & algorithms",
       icon: <SiCodechef/>,
-      url: "#",
+      url: "https://www.codechef.com/users/aman_8249",
     },
     {
       name: "HackerRank",
       description: "Coding challenges & competitions",
       icon: <FaHackerrank/>,
-      url: "#",
+      url: "https://www.hackerrank.com/profile/ansariaman1603",
     },
-    {
-      name: "GeeksforGeeks",
-      description: "Technical articles & contributions",
-      icon: <SiGeeksforgeeks/>,
-      url: "#",
-    },
+  
   ]
 
   return (

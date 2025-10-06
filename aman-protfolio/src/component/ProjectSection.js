@@ -12,14 +12,14 @@ export default function ProjectsSection() {
         "Conducted research in cybersecurity focusing on DNS-over-HTTPS traffic detection using machine learning models in Python. Implemented hybrid ML models to identify malicious traffic with high accuracy, leveraging feature engineering, real-time traffic simulation, and performance optimization.",
       image: research_image,
       technologies: ["Python", "Scikit-learn", "TensorFlow", "Pandas", "DoH Dataset"],
-      githubUrl: "#",
+      ColabURL: "https://colab.research.google.com/drive/1AUdcJ9AMAswuLqClONH_LypRuRE-TmD4?usp=sharing",
       category: "Research",
     },
     {
       title: "HopeSpring – Cancer Support Platform",
       description:
         "Developing a digital-first web platform for HopeSpring Cancer Support Centre to modernize program and service bookings, improve accessibility, and streamline staff operations",
-      image: research_image,
+      image: HopeSpring_image,
       technologies: ["React", "Node.js", "JavaScript", "PostgreSQL", "Tailwind CSS"],
       githubUrl: "#",
       category: "Research",
@@ -28,9 +28,9 @@ export default function ProjectsSection() {
       title: "Antique Store – E-commerce Platform",
       description:
         "Developed a full-stack e-commerce web application for antiques, providing a seamless platform for browsing, managing, and purchasing rare items. Features included user authentication, product management, shopping cart, and secure payment integration.",
-      image: HopeSpring_image,
+      image: antique_image,
       technologies: ["React.js", "Node.js", "Express", "MongoDB"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/Aman-1603/antique-store",
       category: "Full Stack",
     },
     {
@@ -39,7 +39,7 @@ export default function ProjectsSection() {
         "Designed and built an Android app that connects buyers with nearby stores based on their location. Sellers can register, add products, and manage inventory, while buyers can browse and purchase from local shops. The system was powered by Firebase for real-time data sync, authentication, and scalability.",
       image: flashcart_image,
       technologies: ["Java", "Android Studio", "Firebase", "Google Maps API"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/Aman-1603/Flashcart",
       category: "Mobile App",
     },
   ]
