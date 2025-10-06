@@ -2,6 +2,7 @@
 import research_image from "../Assets/Research.png"
 import antique_image from "../Assets/antique_store.png"
 import flashcart_image from "../Assets/flashcart_image.png"
+import HopeSpring_image from "../Assets/hopespring.png"
 
 export default function ProjectsSection() {
   const projects = [
@@ -15,10 +16,19 @@ export default function ProjectsSection() {
       category: "Research",
     },
     {
+      title: "HopeSpring – Cancer Support Platform",
+      description:
+        "Developing a digital-first web platform for HopeSpring Cancer Support Centre to modernize program and service bookings, improve accessibility, and streamline staff operations",
+      image: research_image,
+      technologies: ["React", "Node.js", "JavaScript", "PostgreSQL", "Tailwind CSS"],
+      githubUrl: "#",
+      category: "Research",
+    },
+    {
       title: "Antique Store – E-commerce Platform",
       description:
         "Developed a full-stack e-commerce web application for antiques, providing a seamless platform for browsing, managing, and purchasing rare items. Features included user authentication, product management, shopping cart, and secure payment integration.",
-      image: antique_image,
+      image: HopeSpring_image,
       technologies: ["React.js", "Node.js", "Express", "MongoDB"],
       githubUrl: "#",
       category: "Full Stack",
