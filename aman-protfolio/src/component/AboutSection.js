@@ -62,6 +62,26 @@ export default function AboutSection() {
               <div className="relative pl-6 border-l border-gray-700">
                 <div className="absolute -left-[9px] w-4 h-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full"></div>
                 <div>
+                  <h4 className="text-xl font-medium">FullStack Developer-Intern</h4>
+                  <p className="text-blue-400">HopeSpring Cancer Support Center • Sept 2025 – Dec 2025</p>
+                  <p className="text-gray-400 mt-2 text-sm leading-relaxed">
+                    Led the design and development of a full-stack web platform for program management and 
+      member bookings using React, Node.js, and PostgreSQL. Implemented secure authentication, 
+      real-time dashboards, and role-based access to streamline operations and enhance user 
+      experience across members, caregivers, and staff.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            {/* Experience :2*/}
+            <div>
+              <h3 className="text-2xl font-semibold mb-6 border-b border-gray-700 pb-2">Experience</h3>
+
+              <div className="relative pl-6 border-l border-gray-700">
+                <div className="absolute -left-[9px] w-4 h-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full"></div>
+                <div>
                   <h4 className="text-xl font-medium">Android Developer Intern</h4>
                   <p className="text-blue-400">Maxgen Technologies • Jan 2023 – May 2023</p>
                   <p className="text-gray-400 mt-2 text-sm leading-relaxed">
@@ -71,6 +91,9 @@ export default function AboutSection() {
                 </div>
               </div>
             </div>
+
+
+
 
             {/* Relevant Coursework */}
             <div>
