@@ -32,8 +32,8 @@ export default function AboutSection() {
                 <div className="text-gray-400 text-sm uppercase">Projects Created</div>
               </div>
               <div className="bg-gray-900 p-6 rounded-lg text-center shadow hover:shadow-purple-500/30 transition">
-                <div className="text-4xl font-bold mb-2">6+</div>
-                <div className="text-gray-400 text-sm uppercase">Months Experience</div>
+                <div className="text-4xl font-bold mb-2">1.5+</div>
+                <div className="text-gray-400 text-sm uppercase">Years Experience</div>
               </div>
             </div>
           </div>
@@ -46,12 +46,12 @@ export default function AboutSection() {
 
               <div className="mb-6">
                 <h4 className="text-xl font-medium">Master’s in Applied Computing</h4>
-                <p className="text-blue-400">Wilfrid Laurier University, Canada (2024 – Present)</p>
+                <p className="text-blue-400">Wilfrid Laurier University, Canada (Sept 2024 – Dec 2025)</p>
               </div>
 
               <div>
                 <h4 className="text-xl font-medium">Bachelor of Technology – Information Technology</h4>
-                <p className="text-blue-400">Ganpat University, India (2019 – 2023)</p>
+                <p className="text-blue-400">Ganpat University, India (Sept 2019 – May 2023)</p>
               </div>
             </div>
 
@@ -74,11 +74,28 @@ export default function AboutSection() {
               </div>
             </div>
 
+          {/* Experience */}
+<div>
+  <div className="relative pl-6 border-l border-gray-700">
+    <div className="absolute -left-[9px] w-4 h-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full"></div>
+    <div>
+      <h4 className="text-xl font-medium">Software Development Engineer</h4>
+      <p className="text-blue-400">
+        Xipra Technology • Jun 2023 – Aug 2024
+      </p>
+      <p className="text-gray-400 mt-2 text-sm leading-relaxed">
+        Worked on full-stack web applications, building scalable features and RESTful APIs.
+        Collaborated in a fast-paced startup environment to design backend services, optimize
+        database interactions, and deliver production-ready solutions with a strong focus on
+        performance, maintainability, and evolving product requirements.
+      </p>
+    </div>
+  </div>
+</div>
 
-            {/* Experience :2*/}
+
+            {/* Experience :3*/}
             <div>
-              <h3 className="text-2xl font-semibold mb-6 border-b border-gray-700 pb-2">Experience</h3>
-
               <div className="relative pl-6 border-l border-gray-700">
                 <div className="absolute -left-[9px] w-4 h-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full"></div>
                 <div>
@@ -92,7 +109,7 @@ export default function AboutSection() {
               </div>
             </div>
 
-
+          
 
 
             {/* Relevant Coursework */}
