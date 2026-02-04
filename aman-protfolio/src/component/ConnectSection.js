@@ -1,5 +1,3 @@
-import dot from "../Assets/dot.gif"
-import linkdin_logo from "../Assets/linkdin_logo.png"
 import { FaGithub, FaLinkedin, FaHackerrank,  } from "react-icons/fa"
 import { SiCodechef, SiGeeksforgeeks} from "react-icons/si"
 
