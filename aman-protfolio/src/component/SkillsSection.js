@@ -16,7 +16,6 @@ import {
   SiApachekafka,
   SiRedis,
   SiGooglecloud,
-  SiMicrosoftazure,
   SiJenkins,
   SiLinux,
   SiNextdotjs,
@@ -28,7 +27,7 @@ export default function SkillsSection() {
   const [activeTab, setActiveTab] = useState("Languages")
 
   const skillCategories = {
-    "Languages": [
+    Languages: [
       { name: "Java", icon: <FaJava className="text-red-500" /> },
       { name: "Python", icon: <FaPython className="text-yellow-300" /> },
       { name: "TypeScript", icon: <SiTypescript className="text-blue-500" /> },
@@ -36,6 +35,7 @@ export default function SkillsSection() {
       { name: "SQL", icon: <SiPostgresql className="text-sky-400" /> },
       { name: "Bash", icon: <SiLinux className="text-gray-300" /> },
     ],
+
     "Cloud & DevOps": [
       { name: "AWS", icon: <FaAws className="text-orange-400" /> },
       { name: "GCP", icon: <SiGooglecloud className="text-blue-400" /> },
@@ -44,6 +44,7 @@ export default function SkillsSection() {
       { name: "Kubernetes", icon: <SiKubernetes className="text-blue-600" /> },
       { name: "Terraform", icon: <SiTerraform className="text-purple-400" /> },
     ],
+
     "CI/CD & Tools": [
       { name: "GitHub Actions", icon: <FaGithub className="text-white" /> },
       { name: "Jenkins", icon: <SiJenkins className="text-red-400" /> },
@@ -52,24 +53,28 @@ export default function SkillsSection() {
       { name: "VS Code", icon: <VscVscode className="text-blue-500" /> },
       { name: "Jira", icon: <span className="text-2xl font-bold text-blue-400">J</span> },
     ],
-    "Observability": [
+
+    Observability: [
       { name: "Prometheus", icon: <SiPrometheus className="text-orange-500" /> },
       { name: "Grafana", icon: <SiGrafana className="text-orange-400" /> },
       { name: "OpenTelemetry", icon: <span className="text-2xl">🔭</span> },
     ],
-    "Frameworks": [
+
+    Frameworks: [
       { name: "React", icon: <FaReact className="text-cyan-400" /> },
       { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
       { name: "Node.js", icon: <FaNodeJs className="text-green-600" /> },
       { name: "REST APIs", icon: <TbApi className="text-purple-400" /> },
     ],
-    "Databases": [
+
+    Databases: [
       { name: "PostgreSQL", icon: <SiPostgresql className="text-sky-600" /> },
       { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
       { name: "MySQL", icon: <SiMysql className="text-orange-600" /> },
       { name: "Redis", icon: <SiRedis className="text-red-500" /> },
       { name: "Kafka", icon: <SiApachekafka className="text-white" /> },
     ],
+
     "AI & Dev Tools": [
       { name: "Claude Code", icon: <TbBrandOpenai className="text-purple-400" /> },
       { name: "GitHub Copilot", icon: <FaGithub className="text-gray-300" /> },
@@ -83,7 +88,9 @@ export default function SkillsSection() {
     <section id="skills" className="min-h-screen bg-black text-white py-20">
       <div className="container mx-auto px-6 md:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-serif mb-4">Skills & Expertise</h2>
+          <h2 className="text-4xl md:text-6xl font-serif mb-4">
+            Skills & Expertise
+          </h2>
           <div className="w-20 h-0.5 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto"></div>
         </div>
 
@@ -105,12 +112,18 @@ export default function SkillsSection() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 max-w-6xl mx-auto">
           {skillCategories[activeTab].map((skill, index) => (
-            <div key={index} className="flex flex-col items-center group cursor-pointer">
-              <div className="w-20 h-20 bg-gray-900 rounded-2xl flex items-center justify-center mb-4
-                             group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-purple-500/40
-                             transition-all duration-300">
+            <div
+              key={index}
+              className="flex flex-col items-center group cursor-pointer"
+            >
+              <div
+                className="w-20 h-20 bg-gray-900 rounded-2xl flex items-center justify-center mb-4
+                group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-purple-500/40
+                transition-all duration-300"
+              >
                 <div className="text-4xl">{skill.icon}</div>
               </div>
+
               <span className="text-center text-sm">{skill.name}</span>
             </div>
           ))}
